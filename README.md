@@ -1,10 +1,25 @@
-# interop-2023-mobile-testing
-Mobile Testing Investigation in Interop 2023
+# interop-mobile-testing
+Mobile Testing Investigation in Interop
 
-## Scope
+## 2024 Investigation
+
+### Scope
+
+Do the work so that by Interop 2025 the dashboard has a mobile view, and the mobile view is considered as reliable as desktop.
+
+### Roadmap
+
+1. Formulate and implement a plan for getting Mobile Safari Results onto the dashboard
+1. For each mobile browser, investigate and catalouge test failures relative to desktop
+1. Reduce the number of unexpected mobile test failures relative to desktop to 0
+1. Update the Interop infrastructure to consume mobile results and create a mobile specific results CSV (similar to desktop-stable and desktop-experimental)
+1. Provide a UI on wpt.fyi to present the mobile-specific interop scores
+
+## 2023 Investigation
+### Scope
 Do the infrastructure work required to allow us to accept future Interop proposals that test mobile-specific functionality which can't be scored using the current desktop-only wpt CI.
 
-## Roadmap
+### Roadmap
 
 1. Write up the requirements and options for testing on mobile (e.g. provide dedicated hardware, use vendor results, use mobile-simulation mode in desktop browsers etc.) along with pros and cons of each.
 1. Do a feasability study into the options (e.g. if resources are required can any participant help provide those).
@@ -14,7 +29,7 @@ Do the infrastructure work required to allow us to accept future Interop proposa
 
 Complete success would look like mobile results being available on wpt.fyi by the end of Interop 2023. Working out how such results would be used as part of a future Interop metric is explicitly out of scope, as are the addition of additional test APIs to support testing specific mobile features.
 
-## Original Rationale
+### Original Rationale
 
 From the proposal: https://github.com/web-platform-tests/interop/issues/201
 
