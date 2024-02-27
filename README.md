@@ -5,13 +5,13 @@ Mobile Testing Investigation in Interop
 
 ### Scope
 
-Do the work so that by Interop 2025 the dashboard has a mobile view, and the mobile view is considered as reliable as desktop.
+Do the work so that by Interop 2025 the dashboard has a mobile view, with at least "experimental" versions of browsers, and the mobile view is considered as reliable as desktop.
 
 ### Roadmap
 
-1. Formulate and implement a plan for getting Mobile Safari Results onto the dashboard
-1. For each mobile browser, investigate and catalouge test failures relative to desktop
-1. Reduce the number of unexpected mobile test failures relative to desktop to 0
+1. Formulate and implement a plan for getting iOS WebKit Results onto the dashboard
+1. For each mobile browser, investigate and catalogue test failures relative to desktop
+1. Reduce the number of unexplained mobile test failures relative to desktop to 0
 1.
     * Update the Interop infrastructure to consume mobile results and create a mobile specific results CSV (similar to desktop-stable and desktop-experimental)
     * Provide a UI on wpt.fyi to present the mobile-specific interop scores
