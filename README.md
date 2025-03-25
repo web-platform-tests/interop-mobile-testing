@@ -9,7 +9,7 @@ Enable future versions of Interop to have specific mobile focus areas. Improve t
 
 ### Roadmap and Scoring
 
-* (30%) [Carryover] Have reliable iOS runs. Have stable firefox (currently only experimental). Have stable chrome (currently only experimental)
+* (30%) [Carryover] Have reliable iOS runs. Have stable Firefox (currently only experimental). Have stable Chrome (currently only experimental)
 * (30%) Ensure testharness test results are meaningful.
   * Use proposed touch events tests as an example of a possible mobile-specific Interop focus area that should be considered reliable.
 * (30%) Figure out how to make layout tests work on mobile. In particular, reftests.
