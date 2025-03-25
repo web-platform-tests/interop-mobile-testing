@@ -1,6 +1,21 @@
 # interop-mobile-testing
 Mobile Testing Investigation in Interop
 
+## 2025 Investigation
+
+### Scope
+
+Enable future versions of Interop to have specific mobile focus areas. Improve the reliability of all testing on mobile, with specific emphasis of enabling realisic testing of layout on mobile.
+
+### Roadmap and Scoring
+
+* (30%) [Carryover] Have reliable iOS runs. Have stable firefox (currently only experimental). Have stable chrome (currently only experimental)
+* (30%) Ensure testharness test results are meaningful.
+  * Use proposed touch events tests as an example of a possible mobile-specific Interop focus area that should be considered reliable.
+* (30%) Figure out how to make layout tests work on mobile. In particular, reftests.
+* (10%) Figure out the requirements for testing dynamic viewport sizing. Suggest a viable approach if possible.
+
+
 ## 2024 Investigation
 
 ### Scope
