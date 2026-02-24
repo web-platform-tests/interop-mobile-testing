@@ -12,6 +12,7 @@ Enable future versions of Interop to have specific mobile focus areas. Improve t
 * (15%) [Carryover] Have reliable iOS runs. We have stable & experimental runs for Firefox on Android and Chrome on Android.
 * (15%) [Carryover] Ensure testharness test results are meaningful.
 * (35%) [Carryover] Figure out how to make layout tests work on mobile. In particular, reftests.
+  * We should reenable reftests tests for Firefox Android.
 * (35%) [Carryover] Figure out the requirements for testing dynamic viewport sizing. Suggest a viable approach if possible.
 
 ## 2025 Investigation
